@@ -1,327 +1,283 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/img/apple-icon.png"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
-    />
-    <title>Ripo Pirts</title>
-  </head>
-  <body>
-     <!-- Navbar -->
-     <nav
-     class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
-   >
-     <div
-       class="container px-4 mx-auto flex flex-wrap items-center justify-between"
-     >
-       <div
-         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Pārvietojamās pirts un kubla noma ar piegādi Jūsu izvēlētā vietā. Sagādā sev un saviem tuvajiem labsajūtu! Rezervācijai Tel: 26362226 vai 29342778">
+  <!-- <meta name="keywords" content="HTML, CSS, JavaScript"> -->
+  <!-- <meta name="author" content="John Doe"> -->
+  <link rel="shortcut icon" href="./img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <title>Ripo Pirts</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
 
-         <a
-           class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white small-display:none
-           href="#">Ripo <span class="text-orange-500">Pirts </span> 
-           
-           <div class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white small-display:none
+        <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white small-display:none
+           href=" #">Ripo <span class="text-orange-500">Pirts </span>
+
+          <div class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white small-display:none
            href="#">
-            <a href="https://api.whatsapp.com/send?phone=+37126362226">whatsapp</a>
-           </div>
+            <a href="https://api.whatsapp.com/send?phone=+37126362226" target=”_blank”>whatsapp</a>
+          </div>
 
-          </a>
-         
-         
-          
-         
-         <button
-           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-           type="button"
-           onclick="toggleNavbar('example-collapse-navbar')"
-         >
-           <i class="text-white fas fa-bars"></i>
-         </button>
-       </div>
-       <div
-         class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
-         id="example-collapse-navbar"
-       >
-         <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-           <!-- Icon 1 -->
-           <li class="flex items-center">
-             <a
-               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-               href="https://api.whatsapp.com/send?phone=+37126362226" id="whatsapp link"><i
-                 class="text-green-500 fab fa-whatsapp text-lg leading-lg"
-               ></i
-               ><span class="lg:hidden inline-block ml-2">WHATSAPP</span></a
-             >
-           </li>
-           <!-- Icon 2 -->
-           <li class="flex items-center">
-             <a
-               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-               href="https://www.instagram.com/ripopirts/" target="_blank" rel="noopener"
-               ><i
-                 class="text-red-500 fab fa-instagram text-lg leading-lg"
-               ></i
-               ><span class="lg:hidden inline-block ml-2">INSTAGRAM</span></a
-             >
-           </li>
-           <!-- Icon 3 -->
-           <li class="flex items-center">
-             <a
-               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-               href="https://www.facebook.com/ripopirts"
-               ><i
-                 class="text-blue-500 fab fa-facebook text-lg leading-lg"
-               ></i
-               ><span class="lg:hidden inline-block ml-2">FACEBOOK</span></a
-             >
-           </li>
-         </ul>
-       </div>
-     </div>
-   </nav>
-   <!-- Main Area -->
-   <main>
-     <!-- Hero -->
-     <div
-       class="relative pt-16 pb-32 flex content-center items-center justify-center"
-       style="min-height: 95vh">
+        </a>
+
+
+
+
+        <button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar">
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <!-- Icon 1 -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://api.whatsapp.com/send?phone=+37126362226" target=”_blank” id="whatsapp link"><i
+                class="text-green-500 fab fa-whatsapp text-lg leading-lg"></i><span
+                class="lg:hidden inline-block ml-2">WHATSAPP</span></a>
+          </li>
+          <!-- Icon 2 -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://www.instagram.com/ripopirts/" target="_blank" rel="noopener"><i
+                class="text-red-500 fab fa-instagram text-lg leading-lg"></i><span
+                class="lg:hidden inline-block ml-2">INSTAGRAM</span></a>
+          </li>
+          <!-- Icon 3 -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://www.facebook.com/ripopirts" target="_blank" rel="noopener"><i
+                class="text-blue-500 fab fa-facebook text-lg leading-lg"></i><span
+                class="lg:hidden inline-block ml-2">FACEBOOK</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Main Area -->
+  <main>
+    <!-- Hero -->
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh">
 
 
 
 
 
-       <!-- AUGSEJA BILDE BACKGROUND 1 -->
-       <div
-         class="absolute top-0 w-full h-full bg-top bg-cover"
-         style="
+      <!-- AUGSEJA BILDE BACKGROUND 1 -->
+      <div class="absolute top-0 w-full h-full bg-top bg-cover"
+        style="
            background-image: url('https://images.unsplash.com/photo-1567110973513-2a239896072e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8c2F1bmF8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
 
-         <span
-           id="blackOverlay"
-           class="w-full h-full absolute opacity-75 bg-black"
-         ></span>
-       </div>
-       <div class="container relative mx-auto" data-aos="fade-in">
-         <div class="items-center flex flex-wrap">
-           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-             <div>
-               <h1 class="text-white font-semibold text-5xl">
-                 Ripo<span class="text-orange-500"> Pirts</span>
-               </h1>
-               <p class="mt-4 text-lg text-gray-300">
-                Pārvietojamās pirts un kubla noma ar piegādi Jūsu izvēlētā vietā. <br><br>
-Jau kopš seniem laikiem pirts ir viena fantastiska padarīšana! Pirts ir bagātīga ar dažādiem rituāliem, kas uzlabo veselību un labsajūtu. Taču arī ļoti bieži pirts apmeklējumu apvieno ar svinībām, ballītēm un dažādiem izklaides pasākumiem. Pirti var izmantot gan lieli, gan mazi visu cauru gadu. Bet arī karstajam kublam ir sava maģija. Izmantojot aeromasāžas funkciju, izbaudīsiet patīkamas sajūtas ķermenim. Taču dārza ballītēs stundām var sēdēt savā kompānijā zem klajas debess jebkuros laika apstākļos, jo ūdens karstumu jūs paši varat regulēt. Bērniem lielu prieku sagādās krāsainās LED gaismiņas un iespēja dauzīties burbuļojošā un putām pilnā kublā. 
-Pirti un kublu var piegādāt uz jebkuru vietu, kur vien ir ceļš, jo tie ir uzmontēti uz piekabes, kuras var pārvietot ar B kategorijas tiesībām.
-               </p>
-               <!-- <a
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container relative mx-auto" data-aos="fade-in">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div>
+              <h1 class="text-white font-semibold text-5xl">
+                Ripo<span class="text-orange-500"> Pirts</span>
+              </h1>
+              <h2 class="text-white text-orange-500 text-xl mt-2"> Pārvietojamās pirts un kubla noma ar piegādi Jūsu izvēlētā vietā.</h2>
+              <p class="mt-4 text-lg text-gray-300">
+                Jau kopš seniem laikiem pirts ir viena fantastiska padarīšana! Pirts ir bagātīga ar dažādiem rituāliem,
+                kas uzlabo veselību un labsajūtu. Taču arī ļoti bieži pirts apmeklējumu apvieno ar svinībām, ballītēm un
+                dažādiem izklaides pasākumiem. Pirti var izmantot gan lieli, gan mazi visu cauru gadu. Bet arī karstajam
+                kublam ir sava maģija. Izmantojot aeromasāžas funkciju, izbaudīsiet patīkamas sajūtas ķermenim. Taču
+                dārza ballītēs stundām var sēdēt savā kompānijā zem klajas debess jebkuros laika apstākļos, jo ūdens
+                karstumu jūs paši varat regulēt. Bērniem lielu prieku sagādās krāsainās LED gaismiņas un iespēja
+                dauzīties burbuļojošā un putām pilnā kublā.
+                Pirti un kublu var piegādāt uz jebkuru vietu, kur vien ir ceļš, jo tie ir uzmontēti uz piekabes, kuras
+                var pārvietot ar B kategorijas tiesībām.
+              </p>
+              <!-- <a
                  href="/img/broshura.jpeg" download"
                  class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
                  >Ielādēt Brošūru</a> -->
-             </div>
-           </div>
-         </div>
-       </div>
-       <div
-         class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-         style="height: 70px; transform: translateZ(0px)"
-       >
-         <svg
-           class="absolute bottom-0 overflow-hidden"
-           xmlns="http://www.w3.org/2000/svg"
-           preserveAspectRatio="none"
-           version="1.1"
-           viewBox="0 0 2560 100"
-           x="0"
-           y="0"
-         >
-           <polygon points="2560 0 2560 100 0 100"></polygon>
-         </svg>
-       </div>
-     </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0px)">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
 
-     <!-- About Section -->
-     <section id="about" class="relative py-20 bg-black text-white">
-       <div class="container mx-auto px-4">
-         <div class="items-center flex flex-wrap">
-           
-          
-          
-                 <!-- OTRA BILDE BACKGROUND 2 -->
-          
-          <div
-             class="w-full md:w-4/12 ml-auto mr-auto px-4"
-             data-aos="fade-right"
-           >
+    <!-- About Section -->
+    <section id="about" class="relative py-20 bg-black text-white">
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
 
-             <!-- <img
+
+
+          <!-- OTRA BILDE BACKGROUND 2 -->
+
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
+
+            <!-- <img
                alt="..."
                class="max-w-full rounded-lg shadow-lg"
                src="https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
              /> -->
 
-             <img src="img/augsabilde.JPG" alt="Pirts"> 
+            <img src="img/augsabilde.jpeg" alt="Pirts">
 
-           </div>
-           
-
-
-
-                  <!-- OTRA BILDE BACKGROUND 2 -->
+          </div>
 
 
 
-           <div
-             class="w-full md:w-5/12 ml-auto mr-auto px-4"
-             data-aos="fade-left">
-             <div class="md:pr-12 pb-10 pt-20">
-               
-               <!-- <small class="text-orange-500 m-8 ">Ģimenes uzņēmums, kurš nodrošina dārza pakalpojumus</small> -->
-               <h3 class="text-4xl uppercase font-bold">Ripo <span class="text-orange-500">Pirts</span></h3>
-               <p class="mt-4 text-lg leading-relaxed">
+
+          <!-- OTRA BILDE BACKGROUND 2 -->
+
+
+
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+            <div class="md:pr-12 pb-10 pt-20">
+
+              <!-- <small class="text-orange-500 m-8 ">Ģimenes uzņēmums, kurš nodrošina dārza pakalpojumus</small> -->
+              <h3 class="text-4xl uppercase font-bold">Ripo <span class="text-orange-500">Pirts</span></h3>
+              <p class="mt-4 text-lg leading-relaxed">
                 Pakalpojumi:
-               </p>
-               <ul class="list-none mt-6">
-                 <li class="py-2">
-                   <div class="flex items-center">
-                     <div>
-                       <span
-                         class="font-semibold inline-block py-3 mr-3 text-orange-500"
-                         ><i class="fas fa-check-circle fa-2x"></i
-                       ></span>
-                     </div>
-                     <div>
-                       <h4 class="text-xl uppercase">
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i
+                          class="fas fa-check-circle fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl uppercase">
                         pārvietojamās pirts noma
 
-                       </h4>
-                     </div>
-                   </div>
-                 </li>
-                 <li class="py-2">
-                   <div class="flex items-center">
-                     <div>
-                       <span
-                         class="font-semibold inline-block py-3 mr-3 text-orange-500"
-                         ><i class="fas fa-check-circle fa-2x"></i
-                       ></span>
-                     </div>
-                     <div>
-                       <h4 class="text-xl uppercase">
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i
+                          class="fas fa-check-circle fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl uppercase">
                         pārvietojamā kubla noma
-                       </h4>
-                     </div>
-                   </div>
-                 </li>
-                 <li class="py-2">
-                   <div class="flex items-center">
-                     <div>
-                       <span
-                         class="font-semibold inline-block py-3 mr-3 text-orange-500"
-                         ><i class="fas fa-check-circle fa-2x"></i
-                       ></span>
-                     </div>
-                     <div>
-                       <h4 class="text-xl uppercase">pirts + kubla noma</h4>
-                     </div>
-                   </div>
-                 </li>
-                 <li class="py-2">
-                   <div class="flex items-center">
-                     <div>
-                       <span
-                         class="font-semibold inline-block py-3 mr-3 text-orange-500"
-                         ><i class="fas fa-check-circle fa-2x"></i
-                       ></span>
-                     </div>
-                     <div>
-                       <h4 class="text-xl uppercase">
-                        malkas nodrošināšana pirtij un kublam  
-                       </h4>
-                     </div>
-                   </div>
-                 </li>
-               </ul>
-             </div>
-           </div>
-         </div>
-       </div>
-     </section>
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i
+                          class="fas fa-check-circle fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl uppercase">pirts + kubla noma</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i
+                          class="fas fa-check-circle fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl uppercase">
+                        malkas nodrošināšana pirtij un kublam
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-     <!-- Trainers Section -->
-     <section class="pt-20 pb-38">
-       <div class="container mx-auto px-4">
-         <div class="flex flex-wrap justify-center text-center mb-24">
-           <div class="w-full lg:w-6/12 px-4">
-             <h2 class="text-4xl font-semibold uppercase">
-              
-             </h2>
-             <p class="text-lg leading-relaxed m-4">
-              
-             </p>
-           </div>
-         </div>
-         <!-- Trainer Card Wrapper -->
-         <div class="flex flex-wrap">
-           <!-- Card 1 -->
-           <div
-             class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
-             data-aos="flip-right"
-           >
-             <div class="px-6">
-               <!-- <img
+    <!-- Trainers Section -->
+    <section class="pt-20 pb-38">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold uppercase">
+
+            </h2>
+            <p class="text-lg leading-relaxed m-4">
+
+            </p>
+          </div>
+        </div>
+        <!-- Trainer Card Wrapper -->
+        <div class="flex flex-wrap">
+          <!-- Card 1 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+            <div class="px-6">
+              <!-- <img
                  alt="..."
                  src="https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
                  class="shadow-lg rounded max-w-full mx-auto"
                  style="max-width: 250px"
                /> -->
-               <img src="img/Photo1.jpg" alt="Tujas Photo"> 
+              <img src="img/Photo1.jpeg" alt="Tujas Photo">
 
-               <div class="pt-6 text-left">
-                 <h5 class="text-xl font-bold">Pārvietojamā pirts</h5>
-                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Pirts izmēri 3, 5 m x 2m 
-Vienlaicīgi pirtī var atrasties līdz 6 personām <br> <br>
--divas pēršanās lāvas (2m) <br>
-- akmeņu krāsns, <br>
-- puspanorāmas logs, <br>
-- priekštelpa ar diviem soliņiem (1m) <br>
-- iebūvēta ventilācija, <br>
-- pakaramie drēbēm un dvieļiem, <br>
-- termometrs, ķīpītīs, <br>
-- ar akumulatoru nodrošināts apgaismojums <br> <br>
-Vidējais uzsilšanas laiks ir aptuveni no vienas līdz pusotrai stundai, atkarīgs no ārējās gaisa temperatūras.
-Jo kvalitatīvāka malka, jo ātrāks pirts uzsilšanas laiks. Iesakām izmantot sausu bērza vai alkšņu malku. Pieļaujamais malkas garums ir līdz 40cm.
-                 </p>
-               </div>
-             </div>
-           </div>
-           <!-- Card 2 -->
-           <div
-             class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
-             data-aos="flip-right"
-           >
-             <div class="px-6">
-              <img src="img/Photo2.jpg" alt="Tujas Photo"> 
+              <div class="pt-6 text-left">
+                <h5 class="text-xl font-bold">Pārvietojamā pirts</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Pirts izmēri 3, 5 m x 2m
+                  Vienlaicīgi pirtī var atrasties līdz 6 personām
+                </p>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold"> 
+                  -divas pēršanās lāvas (2m) <br>
+                  - akmeņu krāsns, <br>
+                  - puspanorāmas logs, <br>
+                  - priekštelpa ar diviem soliņiem (1m) <br>
+                  - iebūvēta ventilācija, <br>
+                  - pakaramie drēbēm un dvieļiem, <br>
+                  - termometrs, ķīpītīs, <br>
+                  - ar akumulatoru nodrošināts apgaismojums
+                </p>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">Vidējais uzsilšanas laiks ir aptuveni no vienas līdz pusotrai stundai, atkarīgs no ārējās gaisa
+                  temperatūras.</p>
 
-               <div class="pt-6 text-left">
-                 <h5 class="text-xl font-bold">Pārvietojamais stiklšķiedras koka kubls </h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">Jo kvalitatīvāka malka, jo ātrāks pirts uzsilšanas laiks. Iesakām izmantot sausu bērza vai alkšņu
+                  malku. Pieļaujamais malkas garums ir līdz 40cm.</p>
+              
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+            <div class="px-6">
+              <img src="img/Photo2.jpeg" alt="Tujas Photo">
+
+              <div class="pt-6 text-left">
+                <h5 class="text-xl font-bold">Pārvietojamais stiklšķiedras koka kubls </h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Kubla diametrs 2m, augstums 1m<br>
                   vienlaicīgi var atrasties līdz 6 personām<br>
@@ -330,88 +286,94 @@ Jo kvalitatīvāka malka, jo ātrāks pirts uzsilšanas laiks. Iesakām izmanto
                   -iekšejais un ārējais LED apgaismojums<br>
                   -glāžu turētājs<br>
                   -termovāks<br>
-                  
-                  Lai piepildītu ar nepieciešamo ūdens daudzumu, vajadzīgas vien apmēram 30 līdz 45 minūtes. 
-                  
-                Jo kvalitatīvāka malka, jo ātrāks kubla uzsilšanas laiks. Iesakām izmantot sausu bērza vai alkšņu malku. Pieļaujamais malkas garums ir līdz 40cm.
+
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">Lai piepildītu ar nepieciešamo ūdens daudzumu, vajadzīgas vien apmēram 30 līdz 45 minūtes.</p>
+
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">Jo kvalitatīvāka malka, jo ātrāks kubla uzsilšanas laiks. Iesakām izmantot sausu bērza vai alkšņu
+                  malku. Pieļaujamais malkas garums ir līdz 40cm.
                 </p>
-               </div>
-             </div>
-           </div>
-           <!-- Card 3 -->
-           <div
-             class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
-             data-aos="flip-right"
-           >
-             <div class="px-6">
-              <img src="img/Photo3.jpg" alt="Tujas Photo"> 
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+            <div class="px-6">
+              <img src="img/Photo3.jpeg" alt="Tujas Photo">
 
-               <div class="pt-6 text-left">
-                 <h5 class="text-xl font-bold">Nomas piedāvājums</h5>
-                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  pirts:<br>
-                  darba dienās (pirmdiena-ceturtdiena) 55 Euro/ diennakts<br>
-                  brīvdienās (piektdiena-svētdiena) 70 Euro/ diennakts<br>
-                  nedēļas nogale (no piektdienas līdz svētdienai) 150 Euro / trīs diennaktis<br><br>
-                  
-                  kubls:<br>
-                  darba dienās (pirmdiena-ceturtdiena) 55 Euro/ diennakts<br>
-                  brīvdienās (piektdiena-svētdiena) 70 Euro/ diennakts<br>
-                  nedēļas nogale (no piektdienas līdz svētdienai) 180 Euro/ trīs diennaktis<br><br>
-                  
-                  pirts + kubls:<br>
-                  darba dienās (pirmdiena-ceturtdiena) 100 Euro/ diennakts<br>
-                  brīvdienās (piektdiena-svētdiena) 140 Euro/ diennakts<br>
-                  nedēļas nogale (no piektdienas līdz svētdienai) 300 Euro/ trīs diennaktis<br><br>
-                  Sausa alkšņa malka 40l maiss - 5 Euro<br><br>
-                  
-                
-                  Par piegādes izmaksām, atkarībā no Jūsu atrašanās vietas individuāli vienosimies.
-                 </p>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-     </section>
+              <div class="pt-6 text-left">
+                <h5 class="text-xl font-bold">Nomas piedāvājums</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <u>pirts:</u><br>
+                  darba dienās (pirmdiena-ceturtdiena) <b>€55 Euro</b>/ diennakts<br>
+                  brīvdienās (piektdiena-svētdiena) <b>€70 Euro</b>/ diennakts<br>
+                  <i>nedēļas nogale</i> (no piektdienas līdz svētdienai) <b>€150 Euro</b> / trīs diennaktis<br>
+                </p>
 
-<!-- -------------- Mūsu Komanda -->
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    <u>kubls:</u><br>
+                    darba dienās (pirmdiena-ceturtdiena) <b>€55 Euro</b> / diennakts<br>
+                    brīvdienās (piektdiena-svētdiena) <b>€70 Euro</b>/ diennakts<br>
+                    <i>nedēļas nogale</i> (no piektdienas līdz svētdienai) <b>€180 Euro</b>/ trīs diennaktis<br>
+                  </p>
 
-     <section class=" pb-48">
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    <u>pirts + kubls:</u><br>
+                    darba dienās (pirmdiena-ceturtdiena) <b>€100 Euro</b>/ diennakts<br>
+                    brīvdienās (piektdiena-svētdiena) 140 Euro/ diennakts<br>
+                  </p>
+
+
+                    <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                      <i>nedēļas nogale</i> (no piektdienas līdz svētdienai) <b>€300 Euro</b>/ trīs diennaktis<br>
+                      Sausa alkšņa malka 40l maiss - <b>5 Euro</b>
+                    </p>
+             
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Par piegādes izmaksām, atkarībā no Jūsu atrašanās vietas individuāli vienosimies.
+                  </p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------- Mūsu Komanda -->
+
+    <section class=" pb-48">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
             <h2 class="text-4xl font-semibold">Mūsu komanda</h2>
             <p class="text-lg leading-relaxed m-4 text-gray-600">
-              
+
             </p>
           </div>
         </div>
 
         <div class="flex flex-wrap">
-        
-          
-          
+
+
+
 
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
-              <img
-                alt="..."
-                src="./img/hero11.jpg"
-                class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
-              />
+              <img alt="..." src="./img/hero11.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Gustavs</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                
+
                 </p>
                 <div class="mt-6">
                   <a href="https://api.whatsapp.com/send?phone=+371 26362226">
-                    <button class="bg-green-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+                    <button
+                      class="bg-green-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button">
                       <i class="fab fa-whatsapp"></i></button>
                   </a>
-                    <!-- <a href="mailto:">
+                  <!-- <a href="mailto:">
                     <button
                     class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
@@ -428,31 +390,29 @@ Jo kvalitatīvāka malka, jo ātrāks pirts uzsilšanas laiks. Iesakām izmanto
           </div>
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
-              <img
-                alt="..."
-                src="./img/hero12.jpg"
-                class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
-              />
+              <img alt="..." src="./img/hero12.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Sanita</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  
+
                 </p>
                 <div class="mt-6">
-                  
+
                   <a href="https://api.whatsapp.com/send?phone=+37129342778">
-                       <button class="bg-green-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                        <i class="fab fa-whatsapp"></i>
+                    <button
+                      class="bg-green-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button">
+                      <i class="fab fa-whatsapp"></i>
                     </button>
                   </a>
-                  
+
                   <!-- <a href="mailto:">
                     <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
                       <i class="far fa-paper-plane"></i>
                     </button>
                   </a> -->
-                    <!-- <button
+                  <!-- <button
                     class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
                     <i class="fab fa-instagram"></i>
                   </button> -->
@@ -465,12 +425,8 @@ Jo kvalitatīvāka malka, jo ātrāks pirts uzsilšanas laiks. Iesakām izmanto
 
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
-              <img
-                alt="..."
-                src="./img/hero14.jpg"
-                class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
-              />
+              <img alt="..." src="./img/hero14.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Irita</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
@@ -479,10 +435,12 @@ Jo kvalitatīvāka malka, jo ātrāks pirts uzsilšanas laiks. Iesakām izmanto
                 <div class="mt-6">
 
                   <a href="https://api.whatsapp.com/send?phone=+37128237365">
-                    <button class="bg-green-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                     <i class="fab fa-whatsapp"></i>
-                 </button>
-               </a>
+                    <button
+                      class="bg-green-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button">
+                      <i class="fab fa-whatsapp"></i>
+                    </button>
+                  </a>
 
                 </div>
               </div>
@@ -493,41 +451,34 @@ Jo kvalitatīvāka malka, jo ātrāks pirts uzsilšanas laiks. Iesakām izmanto
 
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
-              <img
-                alt="..."
-                src="./img/hero13.jpg"
-                class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
-              />
+              <img alt="..." src="./img/hero13.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Raivis.Work</h5>
-                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Web Developer
+                <h5 class="text-xl font-bold">Raivis</h5>
+                <p class="mt-1 text-sm text-gray-500 font-semibold">
+                  web dev
                 </p>
                 <div class="mt-6">
-                  <a href="https://raivis.work/index.html">
-                  <button
-                    class="bg-yellow-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <i class="fas fa-globe"></i>
-                  </button>
+                  <a href="https://raivis.work/index.html" target=”_blank”>
+                    <button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button">
+                      <i class="fas fa-globe"></i>
+                    </button>
                   </a>
 
-<a href="https://www.linkedin.com/in/raivis-gereiss/">
-                  <button
-                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <i class="fab fa-linkedin"></i></button>
-                </a>
+                  <a href="https://www.linkedin.com/in/raivis-gereiss/" target=”_blank”>
+                    <button
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button">
+                      <i class="fab fa-linkedin"></i>
+                    </button>
+                  </a>
 
-                <a href="https://github.com/djraivis">
-                  <button
-                    class="bg-red-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <i class="fab fa-github"></i></button>
+                  <a href="https://github.com/djraivis" target=”_blank”>
+                    <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button">
+                      <i class="fab fa-github"></i></button>
                   </a>
                 </div>
               </div>
@@ -539,208 +490,175 @@ Jo kvalitatīvāka malka, jo ātrāks pirts uzsilšanas laiks. Iesakām izmanto
 
 
 
-     <!-- Contact Header Section -->
-     <section class="pb-20 relative block bg-black text-white">
-       <div
-         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-         style="height: 80px; transform: translateZ(0px)"z/
-       >
-         <svg
-           class="absolute bottom-0 overflow-hidden"
-           xmlns="http://www.w3.org/2000/svg"
-           preserveAspectRatio="none"
-           version="1.1"
-           viewBox="0 0 2560 100"
-           x="0"
-           y="0"
-         >
-           <polygon points="2560 0 2560 100 0 100"></polygon>
-         </svg>
-       </div>
-       <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
-         <div class="flex flex-wrap text-center justify-center">
-           <div class="w-full lg:w-6/12 px-4">
-             <h2 class="text-4xl font-semibold text-white uppercase">
-               Kontakti
-             </h2>
-             <p class="text-lg leading-relaxed mt-4 mb-4">
-              Sagādā sev un saviem tuvajiem labsajūtu!  <br>Tel: 26362226<br>  29342778 
-             </p>
-           </div>
-         </div>
-       </div>
-     </section>
+    <!-- Contact Header Section -->
+    <section class="pb-20 relative block bg-black text-white">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px)" />
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
+        <div class="flex flex-wrap text-center justify-center">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold text-white uppercase">
+              Kontakti
+            </h2>
+            <h3 class="text-lg leading-relaxed mt-4 mb-4 text-xl">
+              Sagādā sev un saviem tuvajiem labsajūtu! <br>Tel: 26362226<br> 29342778
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
-     
-     <!-- Contact Form -->
-     <section class="relative block py-24 lg:pt-0 bg-black">
-       <div class="container mx-auto px-4">
-         <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-           <div class="w-full lg:w-6/12 px-4">
-             <div
-               class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
-               data-aos="fade-up-right">
+
+    <!-- Contact Form -->
+    <section class="relative block py-24 lg:pt-0 bg-black">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
+              data-aos="fade-up-right">
 
 
-                <form class="flex-auto p-5 lg:p-10 bg-orange-500 text-white" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-                 <h4 class="text-2xl font-semibold">Neatliec uz vēlāku, rezervē jau tagad! Ātrākai saziņai, norādiet savu tālruņa numuru</h4>
-                 <p class="leading-relaxed mt-1 mb-4">
-                    
-                 </p>
-                 
-                 
-                 <div class="relative w-full mb-3 mt-8">
-                   
-                  <label 
-                     class="block uppercase text-xs font-bold mb-2"
-                     for="full-name"> Jūsu Vārds
-                    </label>
-                     
-                     <input
-                     type="text" name="name" id="name" placeholder="Vārds"
-                     class="px-3 py-3 placeholder-gray-400 bg-white text-black rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
-                     
-                     style="transition: all 0.15s ease 0s"/>
-                 </div>
+              <form class="flex-auto p-5 lg:p-10 bg-orange-500 text-white" method="POST" data-netlify-recaptcha="true"
+                data-netlify="true">
+                <h4 class="text-2xl font-semibold">Neatliec uz vēlāku, rezervē jau tagad! Ātrākai saziņai, norādiet savu
+                  tālruņa numuru</h4>
+                <p class="leading-relaxed mt-1 mb-4">
 
-                 <div class="relative w-full mb-3">
-                   <label
-                     class="block uppercase text-xs font-bold mb-2"
-                     for="highdoven@gmail.com"
-                     >Jūsu E-pasts</label>
-                   
-                   <input
-                     type="email" name="email" id="email" placeholder="E-pasts"
-                     class="px-3 py-3 placeholder-gray-400 bg-white text-black rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
-                     
-                     style="transition: all 0.15s ease 0s"/>
-                 </div>
-                 
-                 
-                 <div class="relative w-full mb-3">
-                   <label
-                     class="block uppercase text-xs font-bold mb-2"
-                     for="message">Message</label>
-                   
-                    <textarea name="message" id="message" placeholder="Rakstīt ziņu..."
-                     rows="4"
-                     cols="80"
-                     class="px-3 py-3 placeholder-gray-400 bg-white text-black rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
-                     
-                   ></textarea>
+                </p>
+
+
+                <div class="relative w-full mb-3 mt-8">
+
+                  <label class="block uppercase text-xs font-bold mb-2" for="full-name"> Jūsu Vārds
+                  </label>
+
+                  <input type="text" name="name" id="name" placeholder="Vārds"
+                    class="px-3 py-3 placeholder-gray-400 bg-white text-black rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    style="transition: all 0.15s ease 0s" />
                 </div>
-                
-                
-                 <div> <input type="file" name="myfile" placeholder="Upload File"/></div> <br>
 
-                 <div data-netlify-recaptcha="true"></div> 
-              
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-xs font-bold mb-2" for="highdoven@gmail.com">Jūsu E-pasts</label>
 
-                 <div class="text-center mt-6">
-                  
-                  <button class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1" style="transition: all 0.15s ease 0s;"
-                  type="submit" value="Send">
+                  <input type="email" name="email" id="email" placeholder="E-pasts"
+                    class="px-3 py-3 placeholder-gray-400 bg-white text-black rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    style="transition: all 0.15s ease 0s" />
+                </div>
+
+
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-xs font-bold mb-2" for="message">Message</label>
+
+                  <textarea name="message" id="message" placeholder="Rakstīt ziņu..." rows="4" cols="80"
+                    class="px-3 py-3 placeholder-gray-400 bg-white text-black rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"></textarea>
+                </div>
+
+
+                <div> <input type="file" name="myfile" placeholder="Upload File" /></div> <br>
+
+                <div data-netlify-recaptcha="true"></div>
+
+
+                <div class="text-center mt-6">
+
+                  <button
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    style="transition: all 0.15s ease 0s;" type="submit" value="Send">
                     Send Message
                   </button>
-                 </div>
-                </form>
+                </div>
+              </form>
 
 
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-      </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
 
 
 
-   <!-- Footer -->
-   <footer class="relative bg-gray-300 pt-8 pb-6">
-     <div
-       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-       style="height: 80px; transform: translateZ(0px)"
-     >
-       <svg
-         class="absolute bottom-0 overflow-hidden"
-         xmlns="http://www.w3.org/2000/svg"
-         preserveAspectRatio="none"
-         version="1.1"
-         viewBox="0 0 2560 100"
-         x="0"
-         y="0"
-       >
-         <polygon
-           class="text-gray-300 fill-current"
-           points="2560 0 2560 100 0 100"
-         ></polygon>
-       </svg>
-     </div>
-     <div class="container mx-auto px-4">
-       <div class="flex flex-wrap">
-         <div class="w-full lg:w-6/12 px-4">
-           <h4 class="text-3xl font-semibold">Meklē mūs arī sociālajos tīklos</h4>
-           <h5 class="text-lg mt-0 mb-2 text-gray-700">
-             
-           </h5>
-           <div class="mt-6">
-            <a href="https://www.facebook.com/ripopirts">
-              <button
-                class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button">
-                <i class="flex fab fa-facebook text-blue-500"></i></button></a>
-            
-            <a href="https://www.instagram.com/ripopirts">
-              <button
-                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button">
-                <i class="flex fab fa-instagram text-red-500"></i>
-              </button></a>
-              
-            <a href="https://api.whatsapp.com/send?phone=+37129342778">
-              <button
-                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button">
-                <i class="flex fab fa-whatsapp text-green-500"></i>
-              </button></a>
-           </div>
-         </div>
-       </div>
-       <hr class="my-6 border-gray-400" />
-       <div
-         class="flex flex-wrap items-center md:justify-between justify-center"
-       >
-         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-           <div class="text-sm text-gray-600 font-semibold py-1">
-             Copyright © Ripo Pirts
-           </div>
-         </div>
-       </div>
-     </div>
-   </footer>
-  </body>
+    <!-- Footer -->
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px)">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold">Meklē mūs arī sociālajos tīklos</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+
+            </h5>
+            <div class="mt-6">
+              <a href="https://www.facebook.com/ripopirts" target=”_blank”>
+                <button
+                  class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button">
+                  <i class="flex fab fa-facebook text-blue-500"></i></button></a>
+
+              <a href="https://www.instagram.com/ripopirts" target=”_blank”>
+                <button
+                  class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button">
+                  <i class="flex fab fa-instagram text-red-500"></i>
+                </button></a>
+
+              <a href="https://api.whatsapp.com/send?phone=+37129342778" target=”_blank”>
+                <button
+                  class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button">
+                  <i class="flex fab fa-whatsapp text-green-500"></i>
+                </button></a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div class="flex flex-wrap items-center md:justify-between justify-center">
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600 font-semibold py-1">
+              Copyright © Ripo Pirts
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
 
 
-  <script>
-    function toggleNavbar(collapseID) {
-      document.getElementById(collapseID).classList.toggle("hidden");
-      document.getElementById(collapseID).classList.toggle("block");
-    }
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
 
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
-  <script>
-    AOS.init({
-      delay: 200,
-      duration: 1200,
-      once: false,
-    })
-  </script>
-  <script>
-    window.onload = function() {
-        fb_share.href ='http://www.facebook.com/share.php?u=' + encodeURIComponent(location.href); 
-    }  
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+  crossorigin="anonymous"></script>
+<script>
+  AOS.init({
+    delay: 200,
+    duration: 1200,
+    once: false,
+  })
+</script>
+<script>
+  window.onload = function () {
+    fb_share.href = 'http://www.facebook.com/share.php?u=' + encodeURIComponent(location.href);
+  }
+</script>
+
 </html>
